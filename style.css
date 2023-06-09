@@ -53,7 +53,6 @@ body {
 	padding: 0;
 	border: 0;
 	font: inherit;
-    color:var(--nav-text-color);
 	font-size: 0.7rem;
 	vertical-align: baseline;
     list-style-type:none;
@@ -68,6 +67,7 @@ body {
     color:var(--nav-text-color);
 }
 .nav-link a{
+    color:var(--nav-text-color);
     text-decoration: none;
 }
 .nav-icon {
