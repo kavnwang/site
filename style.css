@@ -1,8 +1,10 @@
 :root {
     --header-bg-color: #000000;
     --hero-text-color: #c2ffff;
-    --about-bg-color:#000;
+    --about-bg-color:#000000;
     --nav-text-color:#fff;
+    --footer-text-color:#eee;
+    --posts-text-color:#eee;
 }
 
 body {
@@ -180,3 +182,38 @@ a:visited {
     border-radius: 40px;
 }
 
+.contact-icon {
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:1rem;
+    padding: 2.5rem 0;
+}
+.contact-bar {
+    display:flex;
+    flex-direction: row;
+    gap:2.5rem;
+}
+.copy-text {
+    font-size:0.8rem;
+    color:var(--footer-text-color);
+    margin:0;
+}
+
+.posts {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    color:white;
+}
+
+.latest-post {
+
+}
