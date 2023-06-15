@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <script src="../script.js" defer></script>
+    <title>Kevin Wang</title>
 </head>
+
 <body>
-    <h1>Work</h1>
+    <nav class="nav">
+    <div class="nav-left">
+    <a href="#">
+        <img class="nav-icon" src="../images/nav-icon" alt="profile picture">
+        
+    </a>
+    <h3 class="nav-title">Kevin Wang</h3>
+    </div>
+    <ul class="nav-right">
+        
+        <li class="nav-link"><a href="../index.html#about">About</a></li>
+        <li class="nav-link"><a href="./scrapbook.html">Scrapbook</a></li>
+        <li class="nav-link"><a href="./teaching.html">Teaching</a></li>
+        <li class="nav-link"><a href="./work.html">Work</a></li>
+        <li class="nav-link"><button class="nav-btn" type="button"><img class="nav-light-dark-img" src="../images/nav-dark-icon.png" alt="light/dark mode"></button></li>
+    </ul>
+    </ul>
+    </nav>
+
+    <div class="resume">
+        <iframe src="../resume.pdf" style="width: 100%; height:100%; position: absolute; top: 0; left:0; border-width:0;">
+        </iframe>    </div>
+    <footer class="footer">
+    <div class="contact-bar">
+
+        <!-- Replace with better-looking svgs-->
+        <a href="mailto:kavnweng@gmail.com"> <img class="contact-icon" src="../images/contact-icons/email-icon.png" alt="email icon"></a> 
+        <a href="https://www.linkedin.com/in/kevin-wang-a1a496230/"><img class="contact-icon" src="../images/contact-icons/linkedin-icon.png" alt="linkedin icon"> </a>
+        <a href="https://www.instagram.com/kavnwang/"><img class="contact-icon" src="../images/contact-icons/instagram-icon.png" alt="instagram icon"> </a>
+        <a href="https://github.com/kavnwang"><img class="contact-icon" src="../images/contact-icons/github-icon.png" alt="github icon"> </a>
+
+    </div>
+        <p class="copy-text">© Copyright Kevin Wang 2023. </p>
+    </footer>
 </body>
-</html>
+</html> 
